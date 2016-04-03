@@ -1,0 +1,29 @@
+{
+  "name": "berepublic-interview-tests",
+  "version": "1.0.0",
+  "description": "berepublic interview tests",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server app",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaumesalatantinya/berepublic-interview-tests.git"
+  },
+  "author": "Jaume Sala Tantinya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaumesalatantinya/berepublic-interview-tests/issues"
+  },
+  "homepage": "https://github.com/jaumesalatantinya/berepublic-interview-tests#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0"
+  }
+}
